@@ -1,0 +1,194 @@
+@import url(https://www.cssfontstack.com/Segoe-UI);
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap')
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+/*  overflow: scroll;*/
+    max-height: 300px; /* Set the maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #000000 #313131; /* Scrollbar colors */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #292929(0, 0, 0, 0.8);
+    box-shadow: #4d4d4d;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    padding-left: 2%;
+}
+
+nav button {
+    background-color: #BC7914;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #48277e;
+}
+
+main {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; /* Adjust this value to push the content up */
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Hammersmith One';
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Hammersmith One';
+}
+
+p {
+    font-size: 1.1rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+}
+
+#join-waitlist  {
+    background-color: #7a00ff;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#join-waitlist:hover {
+    background-color: #6200cc;
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+
+.about-content {
+    max-width: 900px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    border-left: 1px; /* Added border-left */
+    border-right: 1px; /* Added border-right */
+    line-height: 1.5; /* Added line-height for better readability */
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #313131; /* Added background-color */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Added background-color */
+}
+
+.about-content h2,
+.about-content p {
+    margin-bottom: 1rem; /* Increased margin-bottom for spacing */
+}
+
+
+.about-content p {
+    margin-bottom: 1.5rem; /* Increased margin-bottom for spacing */
+}
+
+.contact-info {
+    text-align: center;
+    width: 100%;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    text-align: center;
+    margin-bottom: .05px;
+    font-size: 18px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footer {
+    text-align: center;
+    text-decoration: #4d4d4dd8;
+    font-size: 14px;
+}
+
+
+.icon {
+    display: flex;
+    gap: 0.005%; /* Adjust the gap between icons */
+    margin-left: 48%;
+}
+
+.icon a {
+    display: inline-block;
+    width: 20px; /* Set the width of the icons */
+    height: 20px; /* Set the height of the icons */
+    fill: #f0f0f0; /* Add a background color for visibility */
+    margin-left: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #fff;
+    fill: #fff;
+}
+
+
+

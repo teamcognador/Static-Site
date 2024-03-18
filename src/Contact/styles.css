@@ -1,0 +1,59 @@
+/* Reset some default styles */
+@import url(https://www.cssfontstack.com/Segoe-UI);
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Mountains+of+Christmas:wght@400;700&family=Poppins:wght@200;300&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe-UI", sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #292929(0, 0, 0, 0.8);
+    box-shadow: #4d4d4d;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-color: #6200cc;
+    cursor: pointer;
+}
+
+nav button {
+    background-color: #BC7914;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #48277e;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; /* Adjust this value to push the content up */
+    padding-bottom: 15%;
+    text-align: center;
+}
